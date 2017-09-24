@@ -9,9 +9,23 @@
 
 
 <div class="content" id="one"> 
-	<h1>CONTENT 1</h1>
-	<br>
-	<img src="logo.png" align="center" height="400px">
+	<div id="left">
+		left		
+	</div>
+	<div id="right">
+	
+		<p style="font-size: 40px;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec egestas quam, non bibendum mi. Donec sed nisl blandit, faucibus dui quis, faucibus turpis. Praesent tincidunt suscipit feugiat. Praesent ac eros bibendum, malesuada ex vitae, scelerisque leo. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas consequat malesuada posuere. Morbi interdum a tellus ac pellentesque. Cras nec ullamcorper velit.
+
+Donec faucibus quis sapien dictum accumsan. Nam faucibus velit sit amet nunc sagittis posuere. Maecenas fermentum nisi eu justo commodo, in fringilla libero tempor. Sed tincidunt id ante a tristique. Nulla imperdiet eros vitae felis tristique, sed ultrices turpis iaculis. Curabitur laoreet commodo sem vitae scelerisque. Aenean pretium dui vitae consectetur pulvinar. Morbi dignissim id risus eget tincidunt. Vestibulum ullamcorper elementum vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut pulvinar velit diam. Maecenas vitae arcu dignissim, mollis est in, rutrum nulla. Fusce sem quam, ornare ut tellus sed, vestibulum finibus elit. Vestibulum congue a neque quis finibus.
+
+Donec sapien eros, ultricies ac semper vitae, placerat sit amet ex. Pellentesque accumsan malesuada neque eget tempus. Vestibulum ligula ligula, placerat eu placerat a, fermentum sit amet justo. Mauris nec eros sit amet augue gravida condimentum ut ac purus. Maecenas sed feugiat tortor. Curabitur sed odio sagittis, tincidunt lorem sed, vestibulum odio. Donec condimentum augue eget sapien lacinia tincidunt.
+
+Praesent elit turpis, commodo gravida mi non, egestas luctus tortor. Sed faucibus a turpis eu ornare. Quisque rutrum dui enim, ut dictum purus facilisis vitae. Nam nec felis at leo fermentum auctor sed eu libero. Suspendisse nec velit risus. Morbi sollicitudin laoreet turpis, a varius sem consectetur a. Morbi imperdiet odio id sem condimentum mattis. Nam fermentum turpis ligula, nec tempus lectus facilisis ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Vivamus accumsan eget nulla et ornare. Phasellus at justo a sapien tincidunt auctor. Nunc eget viverra erat. Mauris ac sollicitudin nisi. Mauris ac posuere diam. Vivamus augue lectus, molestie non erat vel, porta fringilla tellus. Sed semper nisi eu metus pretium, sed vehicula arcu iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Curabitur ac blandit ex. Praesent sagittis ornare lacus in mollis. Nullam venenatis elementum mauris in mattis. Pellentesque leo nisi, maximus ac pretium ut, elementum sed est. Duis lobortis, massa nec sagittis volutpat, sem urna sollicitudin orci, at ornare risus nulla vel lectus. Curabitur placerat, nibh ut molestie molestie, felis mauris suscipit lorem, et fermentum ligula leo quis justo.
+		</p>
+	</div>	
 </div>
 
 <div class="content" id="two">
@@ -52,6 +66,33 @@ h1
   margin:0;
 }
 
+#left{
+	position: absolute;
+min-height: 100%;
+float:left;
+width:40%;
+overflow:hidden;
+background-color: green;
+min-height:104%
+}
+#right{
+	overflow: scroll;
+	position: absolute; 
+height: 100%;
+float:left;
+left: 40%;
+width:60%;
+background-color: blue;
+height:104%
+} 
+#right {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+#right::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
+
 .content {  
   overflow: auto;
   min-height:100%;
@@ -70,11 +111,11 @@ body .content {
 }
 
 #three {
-  background:#8F2041;min-height:104%
+  background:#DC554F;min-height:104%
 }
 
 #four {
-  background:#DC554F;min-height:104% 
+  background:#8F2041;min-height:104%
 }
 
 #five {
