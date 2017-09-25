@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JM Personal Website</title>
+  <title>JM Personal Website</title>
 </head>
 
 
-<body bgcolor="green" align="center">
+<body bgcolor="black" align="center">
 
 <div class="content" id="welcome">
-
+  <div class="caption">
+    <span class="border">SCROLL DOWN</span>
+  </div>
 </div>
-
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
+</div>
 <div class="content" id="one"> 
-	<div id="left">
-				
-	</div>
-	<div id="right" >
+  <div id="left">
+        
+  </div>
+  <div id="right" >
  <iframe src="test.html" frameborder="0" height="104%" width="100%" style="top: 0;bottom: 0; margin-bottom: -5px"></iframe>
 
-	</div>	
+  </div>  
 </div>
-
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
+</div>
 <div class="content" id="two">
-	<div id="left2">
-				
-	</div>
-	<div id="right2" >
+  <div id="left2">
+        
+  </div>
+  <div id="right2" >
  <iframe src="test2.html" frameborder="0" height="104%" width="100%" style="top: 0;bottom: 0; margin-bottom: -5px"></iframe>
 
-	</div>	
-</div>
-
-<div class="content" id="four">
-	<h1>CONTENT 3</h1> 
-	<br>
-	<img src="logo.png" align="center" height="400px">
+  </div>  
+</div> 
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
 </div>
 
 <div class="content" id="three">
-	
+  <h1>CONTENT 3</h1> 
+  <br>
+  <img src="logo.png" align="center" height="400px">
 </div>
-
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
+</div>
+<div class="content" id="four">
+  
+</div>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
+</div>
 <div class="content" id="five">
-	<h1>CONTENT 5</h1> 
-	<br>
-	<img src="logo.png" align="center" height="400px">
+  <h1>CONTENT 5</h1> 
+  <br>
+  <img src="logo.png" align="center" height="400px">
 </div>
-
-<div class="content" id="bottom">
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Divider</h3>
+</div>
+<div class="content" id="welcome">
 
 </div>
   
@@ -56,7 +71,7 @@
 
 h1
 {
-	color: white;
+  color: white;
 }
 
   html,body {
@@ -66,7 +81,7 @@ h1
 }
 
 #left{
-	position: absolute;
+  position: absolute;
 min-height: 100%;
 float:left;
 width:40%;
@@ -75,8 +90,8 @@ background-color: green;
 min-height:104%
 }
 #right{
-	overflow: scroll;
-	position: absolute; 
+  overflow: scroll;
+  position: absolute; 
 height: 100%;
 float:left;
 left: 40%;
@@ -85,7 +100,7 @@ background-color: blue;
 height:104%
 } 
 #left2{
-	position: absolute;
+  position: absolute;
 min-height: 100%;
 float:left;
 width:40%;
@@ -94,8 +109,8 @@ background-color: blue;
 min-height:104%
 }
 #right2{
-	overflow: scroll;
-	position: absolute; 
+  overflow: scroll;
+  position: absolute; 
 height: 100%;
 float:left;
 left: 40%;
@@ -111,13 +126,6 @@ height:104%
     display: none;  // Safari and Chrome
 }
 
-#obj {
-    -ms-overflow-style: none;  // IE 10+
-    overflow: -moz-scrollbars-none;  // Firefox
-}
-#obj::-webkit-scrollbar { 
-    display: none;  // Safari and Chrome
-}
 
 .content {  
   overflow: auto;
@@ -130,11 +138,13 @@ body .content {
 
 #welcome {
   background-image: url("jm2.gif");
-    background-color: black; min-height:104%;
-        background-repeat: no-repeat;
-    background-attachment: absolute;
-    background-position: center; 
-    background-size: inherit;
+    background-color: black; min-height:100%;
+        background-repeat: no-repeat;  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #one {
   background:#FFDB77; min-height:104% 
@@ -162,7 +172,7 @@ body .content {
     background-attachment: fixed center;
     background-position: 30px 0px;  
 }
-	
+  
 </style> 
 
 </body>
