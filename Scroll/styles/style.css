@@ -6,9 +6,9 @@ body {
 	font-size: 1.25em;
 }
 .pane, .spacing {
-	padding: 15px!important;
+	padding: 0px!important;
 }
-.header, .footer {
+ .footer {
 	padding-bottom: 15px;
 }
 .footer .spacing {
@@ -21,16 +21,44 @@ body {
 
 }
 .paneOne .content-container{
-background-image: url(../images/const.png); background-size: cover;
+        background-image: url("../images/pic1.jpg");
+        background-color: black;
+        min-height: 104%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .paneTwo .content-container{
-	background-image: url(../images/const.png); background-size: cover;
+        background-image: url("../images/pic3.jpg");
+        background-color: black;
+        min-height: 104%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .paneThree .content-container{
-	background-image: url(../images/const.png); background-size: cover;
+        background-image: url("../images/pic1.jpg");
+        background-color: black;
+        min-height: 104%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .paneFour .content-container{
-	background-image: url(../images/const.png); background-size: cover;
+        background-image: url("../images/pic4.jpg");
+        background-color: black;
+        min-height: 104%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .header .content-container {
 	background-image: url(../images/jm2.gif); background-size: cover;
@@ -39,6 +67,53 @@ background-image: url(../images/const.png); background-size: cover;
 .footer .content-container {
 	background-image: url(../images/jm2.gif); background-size: cover;
 }
+#left{
+	position: absolute;
+min-height: 50%;
+float:left;
+width:40%;
+overflow:hidden;
+background-color: green;
+}
+#right{
+	overflow: scroll;
+	position: absolute; 
+height: 100%;
+float:left;
+left: 40%;
+width:60%;
+background-color: blue;
+height:100%
+} 
+#left2{
+	position: absolute;
+	margin-bottom: 80%;
+min-height: 100%;
+float:left;
+width:40%;
+overflow:hidden;
+background-color: blue;
+
+}
+#right2{
+	overflow: scroll;
+	position: absolute; 
+height: 100%;
+float:left;
+left: 40%;
+width:60%;
+background-color: white;
+height:100%
+}
+  #right,
+    #right2 {
+        -ms-overflow-style: none; // IE 10+
+        overflow: -moz-scrollbars-none; // Firefox
+    }
+    #right::-webkit-scrollbar,
+    #right2::-webkit-scrollbar {
+        display: none; // Safari and Chrome
+    }
 h1 {
   	font-family: "brandon-grotesque",sans-serif;
   	line-height: 1.05em;
@@ -68,10 +143,11 @@ p, a {
 
 .wrapper {
 	max-width: 1170px;
+	min-height: 100%
 	margin: 0 auto;
 	position: relative!important;
 	top: 50%;
-	padding: 40px;
+	padding:40px;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
@@ -125,6 +201,9 @@ p, a {
 	    -ms-transform: translateY(-50%);
 	     -o-transform: translateY(-50%);
 	        transform: translateY(-50%);
+	                overflow: auto;
+        min-height: 100%;
+        height: auto;
 }
 .content.center {
 	-webkit-transform: translateY(0)!important;

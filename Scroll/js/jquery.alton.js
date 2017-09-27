@@ -549,40 +549,6 @@
       return false;
     }
 
-    /* ============================================================================
-     * Header Scroll
-     * -------------------
-     * Scroll jacking for full size header image, then re-enables native scrolling
-     *
-     * ============================================================================ */
-    function headerScroll(e) {
-      scrollOffset = scrollY();
-      if (e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) {
-        if ($(next).offset().top > 0 && scrollOffset < $('.' + settings.firstClass).outerHeight()) {
-          if ($('.' + settings.firstClass).hasClass('active')) {
-            $('.' + settings.firstClass).toggleClass('active');
-            $(document).scrollTo(next);
-            previous = current;
-            current = next;
-            return stopDefaultAnimate(e);
-          } else if (!$('html, body').is(':animated')) {
-            return true;
-          }
-        } else {
-          return true;
-        }
-      } else {
-        if (!$('.' + settings.firstClass).hasClass('active') && $(window).scrollTop() <= $('.' + settings.firstClass).outerHeight()) {
-          $('.' + settings.firstClass).toggleClass('active');
-          $(document).scrollTo(previous);
-          next = current;
-          current = previous;
-        } else if (!$('html, body').is(':animated')) {
-          return true;
-        }
-      }
-      return false;
-    }
 
     /* ============================================================================
      * Function Calls and Ordering

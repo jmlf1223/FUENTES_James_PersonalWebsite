@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	
-  <title>JM's Website</title>
-<head>
 
+<head>
+<title>JM</title>
 		<script src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/jquery.alton.js"></script>
-		<script src="../js/typekit.js"></script>
+		<script src="../typekit/typekit.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" href="../styles/style.css">
 		<style>
@@ -19,10 +19,10 @@
 	 	<section class="header" style="height: 500px;">
 	 		<div class="spacing" style="height: 100%;">
 		 		<div class="content-container" style="height: 100%;">
-					<div class="">
+					<div class="wrapper darkText">
 						<div class="content center">
 							
-							
+
 
 						</div>
 					</div>
@@ -30,39 +30,51 @@
 			</div>
 	 	</section>
 		<section class="pane-container">
-			<div class="pane paneOne">
-				<div class="content-container">
-					<div class="content center">
-						
-						<h1>CONTENT 1</h1>
+			<div class="pane paneOne" >
+				<div class="content-container"> 
+<!--         <div id="left2">
+            <h1>MENU</h1>
+            <nav>
+                <ul>                
+                    <li><a href="#left"><button class="menubutton">one</button></a>
+                    </li>
+                    <li><a href="#left2"><button class="menubutton">two</button></a>
+                    </li>
+                    <li><a href="#left"><button class="menubutton">three</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="right2">
+            <iframe src="test2.html" frameborder="0" height="104%" width="100%" style="top: 0;bottom: 0; margin-bottom: -5px"></iframe>
 
-					</div>
+        </div> -->
 				</div>
 			</div>
+
 			<div class="pane paneTwo">
-				<div class="content-container">
-					<div class="content center">
+				<div class="content-container" >
+					<div class="wrapper lightText">
 						
-						<h1>CONTENT 2</h1>
+
 
 					</div>
 				</div>
 			</div>
 			<div class="pane paneThree">
 				<div class="content-container">
-					<div class="content center">
+					<div class="wrapper darkText">
 						
-						<h1>CONTENT 3</h1>
 
 					</div>
 				</div>
 			</div>
 			<div class="pane paneFour">
 				<div class="content-container">
-					<div class="">
+					<div class="wrapper lightText">
 						<div class="content center">
 							
-							<h1>CONTENT 4</h1>
+
 
 						</div>
 					</div>
@@ -72,11 +84,13 @@
 		<section class="footer" style="height: 500px;">
 			<div class="spacing" style="height: 100%;">
 				<div class="content-container" style="height: 100%;">
+					<div class="wrapper darkText">
 						<div class="content center">
 							
 
 							
 						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -98,6 +112,5 @@
 			})(jQuery);
 		</script>
 	</body>
-
 
 </html>
