@@ -75,7 +75,7 @@ body {
 }
 #left{
 	position: absolute;
-min-height: 50%;
+min-height: 100%;
 float:left;
 width:40%;
 overflow:hidden;
@@ -103,6 +103,46 @@ background-color: blue;
 
 }
 #right2{
+	overflow: scroll;
+	position: absolute; 
+height: 100%;
+float:left;
+left: 40%;
+width:60%;
+background-color: white;
+height:100%
+}
+#left3{
+	position: absolute;
+	opacity: 0.4;
+min-height: 100%;
+float:left;
+width:40%;
+overflow:hidden;
+background-color: violet;
+
+}
+#right3{
+	overflow: scroll;
+	position: absolute; 
+height: 100%;
+float:left;
+left: 40%;
+width:60%;
+background-color: white;
+height:100%
+}
+#left4{
+	position: absolute;
+	opacity: 0.4;
+min-height: 100%;
+float:left;
+width:40%;
+overflow:hidden;
+background-color: gold;
+
+}
+#right4{
 	overflow: scroll;
 	position: absolute; 
 height: 100%;
