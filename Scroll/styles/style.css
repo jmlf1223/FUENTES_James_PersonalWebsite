@@ -7,7 +7,7 @@ body {
 
 }
 .navmargin{
-    position: 5% 70%;
+    margin-top: 128%;
 }
 .menubutton {
 
@@ -118,6 +118,17 @@ body {
     background-image: url(../images/jm2.gif);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#lcontainer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 90px;
+    right: 10px;
+    background-color: blue;
+    content: "";
+    z-index: 1;
+    padding-bottom: 50px;
 }
 #left {
     position: absolute;
