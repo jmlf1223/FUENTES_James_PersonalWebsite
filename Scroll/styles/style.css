@@ -4,24 +4,17 @@ html {
 body {
     margin: 0;
     font-size: 1.25em;
-    
+
+}
+.navmargin{
+    position: 5% 70%;
 }
 .menubutton {
-    /*	display: inline-block;
-	padding: 0 10px;
-	background-color: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	border: 2px solid #FFF;
-color: white;
-	border-radius: 10px;
-	margin: 0 10px;
-	padding: 7px 50px;
-	font-family: "brandon-grotesque",sans-serif;*/
+
     transition-duration: 0.4s;
     border: 2px solid white;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 5px 20px;
+    font-size: 18px;
     text-align: center;
     cursor: pointer;
     color: #fff;
@@ -44,11 +37,11 @@ color: white;
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -10px;
     transition: 0.5s;
 }
 .menubutton:hover span {
-    padding-right: 25px;
+    padding-right: 10px;
 }
 .menubutton:hover span:after {
     opacity: 1;
@@ -293,33 +286,7 @@ color: white;
 #right4::-webkit-scrollbar {
     display: none; // Safari and Chrome
 }
-h1 {
-    font-family: "brandon-grotesque", sans-serif;
-    line-height: 1.05em;
-    font-size: 3em;
-    font-weight: bolder;
-    margin: 0;
-    text-transform: uppercase;
-    padding-bottom: 30px;
-}
-h2 {
-    font-family: "brandon-grotesque", sans-serif;
-    line-height: 1.25em;
-    font-size: 1.15em;
-    font-weight: bolder;
-    margin: 0;
-    text-transform: uppercase;
-}
-p,
-a {
-    font-family: "freight-text-pro", sans-serif;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 1.25em;
-    margin-bottom: 0;
-}
+
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
@@ -451,25 +418,9 @@ a {
         padding: 15% 0;
         width: 100%;
     }
-    h1,
-    p,
-    h2 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    h1 {
-        font-size: 0.8em;
-        padding-bottom: 10px;
-    }
-    h2 {
-        font-size: 0.8em;
-    }
-    p {
-        font-size: 0.8em;
-        margin-top: 0;
-    }
-    .center a {
+
+/*    .center a {
         margin-bottom: 10px;
         display: block;
-    }
+    }*/
 } 
