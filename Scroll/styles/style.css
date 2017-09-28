@@ -5,6 +5,60 @@ body {
 	margin: 0;
 	font-size: 1.25em;
 }
+        .menubutton {
+/*	display: inline-block;
+	padding: 0 10px;
+	background-color: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid #FFF;
+color: white;
+	border-radius: 10px;
+	margin: 0 10px;
+	padding: 7px 50px;
+	font-family: "brandon-grotesque",sans-serif;*/
+
+	border: 2px solid white;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+  background-color: transparent;
+    }
+.menubutton:hover {
+	background: white;
+	color: black;
+	border: 3px solid gray;
+}
+.menubutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menubutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.menubutton:hover span {
+  padding-right: 25px;
+}
+
+.menubutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
 .pane, .spacing {
 	padding: 0px!important;
 }
@@ -290,7 +344,7 @@ p, a {
 .center h1 {
 	margin-bottom: 40px;
 }
-.center a {
+/*.center a {
 	display: inline-block;
 	padding: 0 10px;
 	color: white;
@@ -317,7 +371,7 @@ p, a {
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
-}
+}*/
 .content {
 	max-width: 50%;
 	-webkit-transform: translateY(-50%);
