@@ -98,12 +98,24 @@ overflow:hidden;
 	overflow: scroll;
 	position: absolute; 
 height: 100%;
+top: 1px;
+bottom: 10px;
 float:left;
 left: 35%;
 width:65%;
-background-color: blue;
 height:100%
 } 
+#right::before{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    opacity: .4;
+    content: "";
+    z-index: -1;
+}
 #left2{
 	position: absolute;
 min-height: 100%;
@@ -129,8 +141,18 @@ height: 100%;
 float:left;
 left: 35%;
 width:65%;
-background-color: white;
 height:100%
+}
+#right2::before{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    opacity: .4;
+    content: "";
+    z-index: -1;
 }
 #left3{
 	position: absolute;
@@ -157,8 +179,18 @@ height: 100%;
 float:left;
 left: 35%;
 width:65%;
-background-color: white;
 height:100%
+}
+#right3::before{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    bottom: 10px;
+    right: 10px;
+    background-color: gold;
+    opacity: .4;
+    content: "";
+    z-index: -1;
 }
 #left4{
 	position: absolute;
@@ -185,8 +217,18 @@ height: 100%;
 float:left;
 left: 35%;
 width:65%;
-background-color: white;
 height:100%
+}
+#right4::before{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    bottom: 10px;
+    right: 10px;
+    background-color: violet;
+    opacity: .4;
+    content: "";
+    z-index: -1;
 }
   #right,
     #right2,#right3, #right4 {
