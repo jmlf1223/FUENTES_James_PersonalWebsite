@@ -7,7 +7,6 @@ body {
 }
 .pane, .spacing {
 	padding: 0px!important;
-		position: center;
 }
  .footer {
 	padding-bottom: 0px;
@@ -42,7 +41,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
+
 }
 .paneThree .content-container{
         background-image: url("../images/pic1.jpg");
@@ -81,7 +80,7 @@ body {
 	position: absolute;
 min-height: 100%;
 float:left;
-width:40%;
+width:35%;
 overflow:hidden;
 background-color: green;
 opacity: 0.4;
@@ -91,8 +90,8 @@ opacity: 0.4;
 	position: absolute; 
 height: 100%;
 float:left;
-left: 40%;
-width:60%;
+left: 35%;
+width:65%;
 background-color: blue;
 height:100%
 } 
@@ -101,7 +100,7 @@ height:100%
 	opacity: 0.4;
 min-height: 100%;
 float:left;
-width:40%;
+width:35%;
 overflow:hidden;
 background-color: blue;
 
@@ -111,8 +110,8 @@ background-color: blue;
 	position: absolute; 
 height: 100%;
 float:left;
-left: 40%;
-width:60%;
+left: 35%;
+width:65%;
 background-color: white;
 height:100%
 }
@@ -121,7 +120,7 @@ height:100%
 	opacity: 0.4;
 min-height: 100%;
 float:left;
-width:40%;
+width:35%;
 overflow:hidden;
 background-color: violet;
 
@@ -131,8 +130,8 @@ background-color: violet;
 	position: absolute; 
 height: 100%;
 float:left;
-left: 40%;
-width:60%;
+left: 35%;
+width:65%;
 background-color: white;
 height:100%
 }
@@ -141,7 +140,7 @@ height:100%
 	opacity: 0.4;
 min-height: 100%;
 float:left;
-width:40%;
+width:35%;
 overflow:hidden;
 background-color: gold;
 
@@ -151,8 +150,8 @@ background-color: gold;
 	position: absolute; 
 height: 100%;
 float:left;
-left: 40%;
-width:60%;
+left: 35%;
+width:65%;
 background-color: white;
 height:100%
 }
@@ -194,7 +193,6 @@ p, a {
 
 .wrapper {
 	max-width: 1170px;
-	min-height: 100%
 	margin: 0 auto;
 	position: relative!important;
 	top: 50%;
@@ -252,7 +250,6 @@ p, a {
 	    -ms-transform: translateY(-50%);
 	     -o-transform: translateY(-50%);
 	        transform: translateY(-50%);
-	                overflow: auto;
         min-height: 100%;
         height: auto;
 }
@@ -263,22 +260,7 @@ p, a {
 	     -o-transform: translateY(0)!important;
 	        transform: translateY(0)!important;
 }
-.image-container {
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-         -o-transform: translateY(-50%);
-            transform: translateY(-50%);
-}
-.image-container {
-    top: 50%;
-    max-width: 47%;
-}
 
-.image-container img {
-	max-width: 100%;
-}
 
 
 
