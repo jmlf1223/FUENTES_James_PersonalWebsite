@@ -115,9 +115,13 @@ body {
     background-position: center;
 }
 .footer .content-container {
-    background-image: url(../images/jm2.gisf);
+    background-image: url(../images/jm2.gif);
     background-size: cover;
+    background-color: black;
+    min-height: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 #lcontainer {
     position: absolute;
