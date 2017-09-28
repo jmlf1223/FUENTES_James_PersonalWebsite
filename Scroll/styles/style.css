@@ -4,6 +4,7 @@ html {
 body {
     margin: 0;
     font-size: 1.25em;
+    
 }
 .menubutton {
     /*	display: inline-block;
@@ -17,7 +18,7 @@ color: white;
 	margin: 0 10px;
 	padding: 7px 50px;
 	font-family: "brandon-grotesque",sans-serif;*/
-    
+    transition-duration: 0.4s;
     border: 2px solid white;
     padding: 15px 25px;
     font-size: 24px;
@@ -53,6 +54,7 @@ color: white;
     opacity: 1;
     right: 0;
 }
+
 .pane,
 .spacing {
     padding: 0px!important;
@@ -470,4 +472,4 @@ a {
         margin-bottom: 10px;
         display: block;
     }
-}
+} 
