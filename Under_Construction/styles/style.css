@@ -4,22 +4,22 @@ html {
 body {
     margin: 0;
     padding: 0;
-
+}
+@font-face {
+    font-family: quicksand;
+    src: url('../fonts/Quicksand-Regular.otf');
+}
+@font-face {
+    font-family: quicksand2;
+    src: url('../fonts/Quicksand-Bold.otf');
+}
+p{
+  font-family: quicksand;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .fa {
-  
-/*  font-size:80px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 2px 2px;
-  border-radius: 50%;
-    
-    padding: 20px;
-    text-align: center;*/
-    
-
       padding-top: 20px;
       padding-left: 20px;
       padding-right: 20px;
@@ -59,16 +59,16 @@ body {
   color: #dd4b39;
 }
 .fa-instagram {
-  background: #125688;
+  background: #e1306c;
   color: white;
 }
 .fa-instagram:hover {
   background: white;
-  color: #125688;
+  color: #e1306c;
 }
 
 .navmargin{
-    margin-top: 128%;
+    margin-top: 118%;
 }
 .menubutton {
 
@@ -84,14 +84,15 @@ body {
 }
 .menubutton:hover {
     background: white;
-    color: black;
-    border: 3px solid gray;
+    color: #e74c3c;
+    border: 2px solid #bdc3c7;
+    font-weight: bold;
 }
 .menubutton span {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .menubutton span:after {
     content: '';
@@ -99,10 +100,11 @@ body {
     opacity: 0;
     top: 0;
     right: -10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .menubutton:hover span {
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .menubutton:hover span:after {
     opacity: 1;
@@ -205,7 +207,12 @@ body {
     right: 10px;
     content: "";
     z-index: 1;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
+}
+#title{
+    font-family: quicksand; 
+    font-size: 70px; 
+    color: white;
 }
 #left {
     position: absolute;
