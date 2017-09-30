@@ -11,16 +11,29 @@
       </style>
    </head>
    <body class="pageWrapper">
-      <section class="header" style="height: 700px;">
-         <div class="spacing" style="height: 100%;">
-            
+    <section class="header" style="height: 700px;">
+        <div class="spacing" style="height: 100%;">
+
             <div class="content-container" style="height: 100%;">
-               
-                  
-                  <div class="content center">
-                    <div style="  font-size: 4em;
-  color: white;
-  font-family: 'Merriweather', serif;
+                <div style="    background-image: url(../images/pic9.jpg);
+    background-size: cover;
+    background-color: black;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    z-index: 2;
+    opacity: 0.3">
+
+                    <div class="content center">
+
+                        <canvas style="align-content: center; margin-left: -20px;">
+                        </canvas>
+                    </div>
+                </div>
+                <h1 style="  font-size: 4em;
+  color: solid white;
   letter-spacing: 2px;
   pointer-events: none;
   font-weight: 700;
@@ -28,133 +41,173 @@
   top: 30%;
   left: 0;
   right: 0;
-  text-align: center;"> WELCOME</div>
-                    <canvas style="align-content: center; margin-left: -20px;">
-                  </canvas>
-                  </div>
+  text-align: center;
+  z-index: 4;
+  opacity: 1.0;">WELCOME</h1>
+            </div>
+        </div>
 
-               
-            </div>
-         </div>
-      </section>
-      <section class="pane-container">
-         <div class="pane paneOne" >
+    </section>
+    <section class="pane-container">
+        <div class="pane paneOne">
             <div class="content-container">
-               <div class="content center">
-                  <div style="margin-bottom: 0px;">
-                     <div id="left">
-                        <div id="lcontainer">
-                           ONE
+                <div class="content center">
+                    <div style="margin-bottom: 0px;">
+                        <div id="left">
+                            <div id="lcontainer">
+                                ONE
+                            </div>
+                            <nav class="navmargin">
+                                <div style="color: white">
+                                    <a href="#left">
+                                        <button class="menubutton"><span>ABOUT</span></button>
+                                    </a> |
+                                    <a href="#left2">
+                                        <button class="menubutton"><span>WORKS</span></button>
+                                    </a> |
+                                    <a href="#left3">
+                                        <button class="menubutton"><span>THE LOGO</span></button>
+                                    </a> |
+                                    <a href="#left4">
+                                        <button class="menubutton"><span>HOBBIES</span></button>
+                                    </a>
+                                </div>
+                            </nav>
                         </div>
-                        <nav class="navmargin">
-                           <div style="color: white">
-                           <a href="#left"><button class="menubutton"><span>ABOUT</span></button></a> | 
-                           <a href="#left2"><button class="menubutton"><span>WORKS</span></button></a> | 
-                           <a href="#left3"><button class="menubutton"><span>THE LOGO</span></button></a> | 
-                           <a href="#left4"><button class="menubutton"><span>HOBBIES</span></button></a> 
+                        <div id="right">
+                            <iframe src="works.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
                         </div>
-                        </nav>
-                     </div>
-                     <div id="right">
-                        <iframe src="works.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="pane paneTwo">
-            <div class="content-container" >
-               <div class="content center">
-                  <div id="left2">
-                        <div id="lcontainer">
-                           SCHOOL WORKS
-                        </div>                     
-                        <nav class="navmargin">
-                           <div style="color: white">
-                           <a href="#left"><button class="menubutton"><span>ABOUT</span></button></a> | 
-                           <a href="#left2"><button class="menubutton"><span>WORKS</span></button></a> | 
-                           <a href="#left3"><button class="menubutton"><span>THE LOGO</span></button></a> | 
-                           <a href="#left4"><button class="menubutton"><span>HOBBIES</span></button></a> 
-                        </div>
-                        </nav>
-                  </div>
-                  <div id="right2">
-                     <iframe src="test.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="pane paneThree">
+        </div>
+        <div class="pane paneTwo">
             <div class="content-container">
-               <div class="content center">
-                  <div id="left3">
+                <div class="content center">
+                    <div id="left2">
                         <div id="lcontainer">
-                           THREE
+                            SCHOOL WORKS
                         </div>
                         <nav class="navmargin">
-                           <div style="color: white">
-                           <a href="#left"><button class="menubutton"><span>ABOUT</span></button></a> | 
-                           <a href="#left2"><button class="menubutton"><span>WORKS</span></button></a> | 
-                           <a href="#left3"><button class="menubutton"><span>THE LOGO</span></button></a> | 
-                           <a href="#left4"><button class="menubutton"><span>HOBBIES</span></button></a> 
-                        </div>
+                            <div style="color: white">
+                                <a href="#left">
+                                    <button class="menubutton"><span>ABOUT</span></button>
+                                </a> |
+                                <a href="#left2">
+                                    <button class="menubutton"><span>WORKS</span></button>
+                                </a> |
+                                <a href="#left3">
+                                    <button class="menubutton"><span>THE LOGO</span></button>
+                                </a> |
+                                <a href="#left4">
+                                    <button class="menubutton"><span>HOBBIES</span></button>
+                                </a>
+                            </div>
                         </nav>
-                  </div>
-                  <div id="right3">
-                     <iframe src="test2.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
-                  </div>
-               </div>
+                    </div>
+                    <div id="right2">
+                        <iframe src="test.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="pane paneFour">
+        </div>
+        <div class="pane paneThree">
             <div class="content-container">
-               <div class="content center">
-                  <div id="left4">
+                <div class="content center">
+                    <div id="left3">
                         <div id="lcontainer">
-                           FOUR
-                        </div>                     
-                        <nav class="navmargin">
-                           <div style="color: white">
-                           <a href="#left"><button class="menubutton"><span>ABOUT</span></button></a> | 
-                           <a href="#left2"><button class="menubutton"><span>WORKS</span></button></a> | 
-                           <a href="#left3"><button class="menubutton"><span>THE LOGO</span></button></a> | 
-                           <a href="#left4"><button class="menubutton"><span>HOBBIES</span></button></a>  
+                            THREE
                         </div>
+                        <nav class="navmargin">
+                            <div style="color: white">
+                                <a href="#left">
+                                    <button class="menubutton"><span>ABOUT</span></button>
+                                </a> |
+                                <a href="#left2">
+                                    <button class="menubutton"><span>WORKS</span></button>
+                                </a> |
+                                <a href="#left3">
+                                    <button class="menubutton"><span>THE LOGO</span></button>
+                                </a> |
+                                <a href="#left4">
+                                    <button class="menubutton"><span>HOBBIES</span></button>
+                                </a>
+                            </div>
                         </nav>
-                  </div>
-                  <div id="right4">
-                     <iframe src="test.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
-                  </div>
-               </div>
+                    </div>
+                    <div id="right3">
+                        <iframe src="test.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
-      <section class="footer" style="height: 100%;">
-         <div class="spacing" style="height: 100%;">
+        </div>
+        <div class="pane paneFour">
+            <div class="content-container">
+                <div class="content center">
+                    <div id="left4">
+                        <div id="lcontainer">
+                            FOUR
+                        </div>
+                        <nav class="navmargin">
+                            <div style="color: white">
+                                <a href="#left">
+                                    <button class="menubutton"><span>ABOUT</span></button>
+                                </a> |
+                                <a href="#left2">
+                                    <button class="menubutton"><span>WORKS</span></button>
+                                </a> |
+                                <a href="#left3">
+                                    <button class="menubutton"><span>THE LOGO</span></button>
+                                </a> |
+                                <a href="#left4">
+                                    <button class="menubutton"><span>HOBBIES</span></button>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div id="right4">
+                        <iframe src="test.html" frameborder="0" height="95%" width="100%" style="margin-top: 16px; margin-bottom: 15px;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" style="height: 100%;">
+        <div class="spacing" style="height: 100%;">
             <div class="content-container" style="height: 100%;">
-               
 
-                  <div class="content center">
-                    <div style="
-  color: white;
-  position: absolute;
-  top: 70%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;"> FOOTER<br>
-  <a href="#" class="fa fa-facebook soc" style="font-size: 40px;padding-top:-5px;"></a>
-  <a href="#" class="fa fa-twitter" style="font-size: 40px;"></a>
-<a href="#" class="fa fa-google" style="font-size: 40px;"></a>
-<a href="#" class="fa fa-instagram" style="font-size: 40px;"></a>
-</div>
-                    <canvas id="canvas1" style="width: 100%;  background-color: transparent;"">
+                <div class="content center">
+
+                    <div style="    background-image: url(../images/w2.jpg);
+    background-size: cover;
+    background-color: black;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    z-index: 2;
+    opacity: 0.3">
+                        <div>
+                            <canvas id="canvas1" style="width: 100%;  background-color: transparent;" ">
                   </canvas>
+</div>
+ 
+</div>
+                   <div style=" z-index: 4; opacity: 1.0; color: white; position: absolute; top: 70%; left: 0; right: 0; bottom: 0; text-align: center; "> FOOTER<br>
+  <a href="# " class="fa fa-facebook soc " style="font-size: 40px;padding-top:-5px; "></a>
+  <a href="# " class="fa fa-twitter " style="font-size: 40px; "></a>
+<a href="# " class="fa fa-google " style="font-size: 40px; "></a>
+<a href="# " class="fa fa-instagram " style="font-size: 40px; "></a>
+
+</div>
                   </div>
-                    
+
+
                   </div>
 
                </div>
+             </section>
    <script>
       (function($) {
         $(document).ready(function() {
