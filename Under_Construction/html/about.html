@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WHAT'S WITH THIS?</title>
 </head>
-<body align="center" style=" " >
+<body align="center" style=" ">
 
-<div style="min-height:50%;margin-right: 10px; background-color: rgba(41,128,185, 0.4 ); ">
-  <br>
-  <h2>HI !</h2>
-    <center><div class="imagecontainer">
-      <img  src="../images/logo/logo5.jpg">
-    </div></center>
-  <center>
-      <h3>Name</h3> </center>
-      <br>
+    <div style="min-height:50%;margin-right: 10px; background-color: rgba(41,128,185, 0.4 ); ">
+        <br>
+        <h2>HI !</h2>
+        <center>
+            <div class="item">
+                <img style="height: 150px;width: 150px;border-radius:50%;object-fit: cover" src="../images/hobbies/me.jpeg" width="540" height="548">
 
-</div>
+            </div>
+        </center>
+        <center>
+            <h3>My name is James Manny Fuentes and I'm a Bachelor of Science in Computer Science student in the University of Southeastern Philippines. I live in Panabo City where I graduated in High School and in Elementary.</h3> </center>
+        <br><br>
+        <center>
+            <h3 style="text-align: center;">Things that im familiar with:</h3>
+            <br>
+            <div style="margin-bottom: 300px;">
+                <div style=" position: absolute;min-height: 100%;float: left; width: 50%; overflow: hidden;">
+                    <div id="slider" style="width: 400px;">
+                        <img style="height: 70px; width: 70px;" src="../images/about/html.png">
+                        <h3 style="text-align: center;">HTML5</h3>
+                        <img style="height: 70px; width: 70px;" src="../images/about/css3.ico">
+                        <h3 style="text-align: center;">CSS3</h3>
+                        <img style="height: 70px; width: 70px;" src="../images/about/ps.png">
+                        <h3 style="text-align: center;">Photoshop</h3>
+                    </div>
+                </div>
+                <div style="position: absolute;float: left;left: 50%;width: 50%;height: 100%">
+                    <div id="slider" style="width: 400px;">
+                        <img style="height: 70px; width: 70px;" src="../images/about/java.png">
+                        <h3 style="text-align: center;">Java</h3>
+                        <img style="height: 70px; width: 60px;" src="../images/about/cpp.png">
+                        <h3 style="text-align: center;">C++</h3>
+                        <img style="height: 70px; width: 95px;" src="../images/about/sql.png">
+                        <h3 style="text-align: center;">SQL</h3>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <h3 style="text-align: center;">Things that I consider myself as a beginner:</h3>
+            <div style="margin-bottom: 300px;">
+                <div style=" position: absolute; min-height: 100%;float: left; width: 50%;overflow: hidden;">
+                    <div id="slider" style="width: 400px;">
+                        <img style="height: 70px; width: 130px;" src="../images/about/js.png">
+                        <h3 style="text-align: center;">Javascript</h3>
+                    </div>
+                </div>
+                <div style="    position: absolute;float: left;left: 50%; width: 50%; height: 100%">
+                    <div id="slider" style="width: 400px;">
+                        <img style="height: 70px; width: 140px;" src="../images/about/php.png">
+                        <h3 style="text-align: center;">PHP</h3>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img style="height: 70px; width: 70px;border-radius:50%; 
+  object-fit: cover" src="../images/about/corel.jpg">
+                <h3 style="text-align: center;">Corel MotionStudio 3D</h3>
+            </div>
+        </center>
 
-
+        <h3>To be honest, I am a master of none or even proficient in one. But I put much effort in everything I could do to as long as I can :) </h3>
+    </div>
 
 </body>
 </html>
@@ -102,9 +157,25 @@ p{
   margin-left: 10px;
   margin-right: 10px;
 }
-img{
-  height: 200px;
-  width: 200px;
-  border-radius:50%; object-fit: cover;
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 40px;
+}
+.item:hover img {
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }
 </style>
