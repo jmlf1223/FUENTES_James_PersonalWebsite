@@ -18,6 +18,7 @@ p{
   color: white;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 20px;
 }
 .fa {
       padding-top: 20px;
@@ -68,7 +69,7 @@ p{
 }
 
 .navmargin{
-    margin-top: 118%;
+    margin-top: 130%;
 }
 .menubutton {
 
@@ -208,6 +209,7 @@ p{
     content: "";
     z-index: 1;
     padding-bottom: 90px;
+    background-color: blue;
 }
 #title{
     font-family: quicksand; 
