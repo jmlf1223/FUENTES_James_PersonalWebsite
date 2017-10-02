@@ -5,39 +5,90 @@
 </head>
 <body align="center" style=" " >
 
-<div style="min-height:50%;margin-right: 10px; background-color: rgba(41,128,185, 0.4 ); ">
-  <br>
-  <h2>Playing With Colored Papers</h2>
-    <div class="imagecontainer">
-      
-    </div>
-    <br>
-    <center><a href="works/work1.html" target="_blank"><button>VIEW SCREENSHOTS</button></a>
-      <p>This was a project in IT Fundamentals 2 where we are tasked to use our knowledge in HTML/CSS in designing webpages that utilizes the functionalities of < iframe /></p>
-    </center>
+
+
+    <div style="margin-right: 10px; background-color: rgba(41,111,115, 0.4 ); ">
+        <br>
+        <h2>Playing With Colored Papers</h2>
+
+<center>
+  <div>
     
-</div>
+                    <div class="imagecontainer">
+                <div class="imagecontainerslider" align="center">
+                <div style=" position: absolute;float: left; width: 50%; overflow: hidden;">
+            <div class="item">
+                <img style="" src="../images/hobbies/p1.jpeg" >
+            </div>
+                </div>
+                <div style="position: absolute;float: left;left: 50%;width: 50%;height: 100%">
+            <div class="item">
+                <img style="height: 396px; width: 390px;" src="../images/hobbies/p2.jpeg" >
+            </div>
+                </div>
+              </div>
+            </div>
+                        <div class="imagecontainer">
+                <div class="imagecontainerslider" align="center">
+                <div style=" position: absolute;float: left; width: 50%; overflow: hidden;">
+            <div class="item">
+                <img style="" src="../images/hobbies/p3.jpeg" >
+            </div>
+                </div>
+                <div style="position: absolute;float: left;left: 50%;width: 50%;height: 100%">
+            <div class="item">
+                <img style="height: 260px; width: 355px;object-fit: cover;" src="../images/hobbies/p4.jpeg" >
+            </div>
+                </div>
+              </div>
+            </div>
+            <div><img style="width: 700px; margin-top: -100px;" src="../images/hobbies/p5.jpeg" ></div>
+                        <div class="imagecontainer">
+                <div class="imagecontainerslider" align="center">
+                <div style=" position: absolute;float: left; width: 50%; overflow: hidden;">
+            <div class="item">
+                <img style="" src="../images/hobbies/p6.jpeg" >
+            </div>
+                </div>
+                <div style="position: absolute;float: left;left: 50%;width: 50%;height: 100%">
+            <div class="item">
+                <img style="height: 550px" src="../images/hobbies/p7.jpeg" >
+            </div>
+                </div>
+              </div>
+            </div>
+                        <div class="imagecontainer">
+                <div class="imagecontainerslider" align="center">
+                <div style=" position: absolute;float: left; width: 50%; overflow: hidden;">
+            <div class="item">
+                <img style="" src="../images/hobbies/p8.jpeg" >
+            </div>
+                </div>
+                <div style="position: absolute;float: left;left: 50%;width: 50%;height: 100%">
+            <div class="item">
+                <img style="" src="../images/hobbies/p9.jpeg" >
+            </div>
+                </div>
+              </div>
+            </div>
+            <div><img style="width: 700px; height: 400px; margin-top: -100px;object-fit: cover; display: block;
+    margin: auto;
+    position: relative;" src="../images/hobbies/p10.jpeg" ></div>
+                      
+  </div>
+</center>
 
 
 
 
+        <center>
+            <h3>asssssssssssssas</h3> </center>
+        <br>
 
-<div style="min-height:50%; margin-right: 10px; background-color:rgba(41,128,185, 0.4 ); ">
-  <br>
-  <h2>SIGN UP PAGE</h2>
-    <div class="imagecontainerslider" align="center">
-            <div id="slider">
-<figure>
-<img src="../images/works/sign.png" alt>
-<img src="../images/works/sign2.png" alt>
-<img src="../images/works/sign.png" alt>
-<img src="../images/works/sign2.png" alt>
-<img src="../images/works/sign.png" alt>
-</figure>
-</div>
     </div>
-    <center><p>This was a simple sign up page that is connected to a local SQL database. This also has a simple error checking in the user inputs using javascript and HTML5 codes. This was a pre-project for our Database Management System subject</p></center>
-</div>
+
+
+
 
 
 
@@ -46,42 +97,36 @@
 
 
 <style type="text/css">
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
 
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 11s slidy infinite; 
-}
 	
+.item {
+  position: relative;
+  overflow: hidden;
+  width: 395px;
 
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 img{
 	display: block;
     margin: auto;
-    width: 90%; 
     position: relative;
     
 }
 .imagecontainer{
-	height: 470px; overflow: hidden;
+	min-height: 470px; 
+  overflow: hidden;
+  margin-left: -128px;
 }
 .imagecontainerslider{
 	width: 796px; 
@@ -107,24 +152,7 @@ img{
     src: url('../fonts/Quicksand-Bold.otf');
 }
 
-button {
-  font-family: quicksand;
-    transition-duration: 0.4s;
-    border: 2px solid white;
-    padding: 5px 20px;
-    font-size: 12px;
-    text-align: center;
-    cursor: pointer;
-    color: #fff;
-    border-radius: 15px;
-    background-color: transparent;
-    font-weight: bold;
-}
-button:hover {
-    background: #e74c3c;
-    color: white;
-    border: 2px solid #FFA631;
-}
+
 body {
     -ms-overflow-style: none;  // IE 10+
     overflow: -moz-scrollbars-none;  // Firefox
