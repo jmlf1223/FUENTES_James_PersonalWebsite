@@ -17,17 +17,15 @@
     </div>
     <br>
     <br>
-    <div style="position: absolute;
-        top: 50%;
-        left: 50%;">
+    <div>
         <ul class="slides">
             <input type="radio" name="radio-btn" id="img-1" checked />
             <li class="slide-container">
                 <div class="slide">
-                    <img src="../../images/works/book.png">
+                    <img src="../../images/works/ps0.gif" />
                 </div>
                 <div class="nav">
-                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-9" class="prev">&#x2039;</label>
                     <label for="img-2" class="next">&#x203a;</label>
                 </div>
             </li>
@@ -35,7 +33,7 @@
             <input type="radio" name="radio-btn" id="img-2" />
             <li class="slide-container">
                 <div class="slide">
-                    <img src="../../images/works/book1.png" />
+                    <img src="../../images/works/ps1.png" />
                 </div>
                 <div class="nav">
                     <label for="img-1" class="prev">&#x2039;</label>
@@ -46,13 +44,80 @@
             <input type="radio" name="radio-btn" id="img-3" />
             <li class="slide-container">
                 <div class="slide">
-                    <img src="../../images/works/book2.png" />
+                    <img src="../../images/works/ps2.png" />
                 </div>
                 <div class="nav">
                     <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/ps3.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/ps4.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-6" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/ps5.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-7" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-7" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/ps6.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-8" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-8" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/ps7.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-7" class="prev">&#x2039;</label>
+                    <label for="img-9" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-9" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="../../images/works/per.gif" />
+                </div>
+                <div class="nav">
+                    <label for="img-8" class="prev">&#x2039;</label>
                     <label for="img-1" class="next">&#x203a;</label>
                 </div>
             </li>
+
 
 
 
@@ -60,11 +125,15 @@
                 <label for="img-1" class="nav-dot" id="img-dot-1"></label>
                 <label for="img-2" class="nav-dot" id="img-dot-2"></label>
                 <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+                <label for="img-8" class="nav-dot" id="img-dot-8"></label>
+                <label for="img-9" class="nav-dot" id="img-dot-9"></label>
             </li>
         </ul>
     </div>
-
-
 
 </body>
 
@@ -99,9 +168,8 @@
         padding: 0;
         display: block;
         margin: 0 auto;
-        height: 100%;
+        position: relative;
         width: 100%;
-        
     }
     .slides * {
         user-select: none;
@@ -118,12 +186,16 @@
         display: block;
     }
     .slide {
+        height: 590px;
+        width: 1000px;
         top: 0;
         opacity: 0;
         display: block;
         position: absolute;
         transform: scale(0);
         transition: all .7s ease-in-out;
+        left: 13%;
+
     }
     .slide img {
         width: 100%;
@@ -134,7 +206,7 @@
         height: 100%;
         display: none;
         position: absolute;
-        opacity: 0.3;
+        opacity: .3;
         z-index: 9;
         cursor: pointer;
         transition: opacity .2s;
@@ -187,7 +259,13 @@
     }
     input#img-1:checked ~ .nav-dots label#img-dot-1,
     input#img-2:checked ~ .nav-dots label#img-dot-2,
-    input#img-3:checked ~ .nav-dots label#img-dot-3 {
+    input#img-3:checked ~ .nav-dots label#img-dot-3,
+    input#img-4:checked ~ .nav-dots label#img-dot-4,
+    input#img-5:checked ~ .nav-dots label#img-dot-5,
+    input#img-6:checked ~ .nav-dots label#img-dot-6,
+    input#img-7:checked ~ .nav-dots label#img-dot-7,
+    input#img-8:checked ~ .nav-dots label#img-dot-8,
+    input#img-9:checked ~ .nav-dots label#img-dot-9{
         background: white;
     }
 </style>
